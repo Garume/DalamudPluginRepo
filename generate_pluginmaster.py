@@ -54,7 +54,7 @@ def main():
 def extract_manifests():
     manifests = []
 
-    for dirpath, dirnames, filenames in os.walk('./plugins'):
+    for dirpath, dirnames, filenames in os.walk('./Plugins'):
         plugin_name = dirpath.split('/')[-1]
         if len(filenames) == 0 or f'{plugin_name}.json' not in filenames:
             continue
