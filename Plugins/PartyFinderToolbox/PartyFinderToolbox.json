@@ -6,6 +6,7 @@
     "Tags": [
       "Utility"
     ],
+    "AssemblyVersion": "1.0.0",
     "InternalName": "PartyFinderToolbox",
     "RepoUrl": "https://github.com/Garume/PartyFinderToolbox",
     "ApplicableVersion": "any",
